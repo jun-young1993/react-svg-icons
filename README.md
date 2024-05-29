@@ -5,11 +5,11 @@ react-svg-icons
 
 # install
 ```shell
-npm i react-icon-svg
+npm i react-symbol
 ```
 # Example
 ```tsx
-import { CloseIcon } from 'react-icon-svg';
+import { CloseIcon } from 'react-symbol';
 
 <CloseIcon />
 
