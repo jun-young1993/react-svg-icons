@@ -1,6 +1,6 @@
-import { SVGProps } from 'react';
+import { SVGAttributes, SVGProps } from 'react';
 export interface SvgType extends SVGProps<SVGSVGElement>{
-	data: string
+	data?: string
 	ariaHidden?: boolean
 	strokeColor?: string;
 	strokeWidth?: string;
@@ -27,8 +27,8 @@ export interface SvgType extends SVGProps<SVGSVGElement>{
 }
 
 const SvgContainer = ({
-	width = '100%',
-	height = '100%',
+	width = '14px',
+	height = '14px',
 	color = 'currentColor',
 	className = '',
 	ariaHidden=true,
