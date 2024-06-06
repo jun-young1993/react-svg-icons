@@ -1,4 +1,4 @@
-import { SVGAttributes, SVGProps } from 'react';
+import {ReactNode, SVGAttributes, SVGProps} from 'react';
 export interface SvgType extends SVGProps<SVGSVGElement>{
 	data?: string
 	ariaHidden?: boolean
@@ -24,15 +24,18 @@ export interface SvgType extends SVGProps<SVGSVGElement>{
 	className3?: string;
 	className4?: string;
 	className5?: string;
+	children?: ReactNode
 }
 
 const SvgContainer = ({
 	width = '14px',
 	height = '14px',
+
 	color = 'currentColor',
 	className = '',
 	ariaHidden=true,
 	data,
+	children,
 	...props
 }: SvgType) => {
 	return (
@@ -44,12 +47,12 @@ const SvgContainer = ({
 			aria-hidden={ariaHidden}
 			{...props}
 		>
-			<path
-				d={data}
-				fill={color}
-			/>
-
-			
+			{children
+			? children
+			: <path
+					d={data}
+					fill={color}
+				/>}
 		</svg>
 	)
 }
