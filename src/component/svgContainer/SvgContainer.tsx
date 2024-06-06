@@ -30,7 +30,7 @@ export interface SvgType extends SVGProps<SVGSVGElement>{
 const SvgContainer = ({
 	width = '14',
 	height = '14',
-  	viewBox="0 0 16 16",
+  	viewBox="0 0 24 24",
 	color = 'currentColor',
 	className = '',
 	ariaHidden=true,
