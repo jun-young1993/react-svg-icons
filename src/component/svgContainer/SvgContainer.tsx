@@ -52,7 +52,7 @@ const SvgContainer = ({
 			? children
 			: <path
 					d={data}
-					fill={color}
+					stroke="currentColor" fill="currentColor"
 				/>}
 		</svg>
 	)
