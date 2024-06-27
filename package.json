@@ -1,6 +1,6 @@
 {
   "name": "react-symbol",
-  "version": "1.1.13",
+  "version": "1.2.13",
   "private": false,
   "dependencies": {
     "@testing-library/react": "^13.4.0",
