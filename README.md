@@ -1,7 +1,7 @@
 # react-svg-icons
 react-svg-icons
 
-# [Move To Doument](https://juny.blog/blog/docs/react-svg-icons.md)
+# [Move To Doument](https://www.juny.blog/markdown-viewer/blog/docs/react-svg-icons.md)
 
 # install
 ```shell

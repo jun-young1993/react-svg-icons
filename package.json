@@ -1,6 +1,6 @@
 {
   "name": "react-symbol",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "private": false,
   "dependencies": {
     "@testing-library/react": "^13.4.0",
@@ -107,7 +107,7 @@
   "bugs": {
     "url": "https://github.com/jun-young1993/react-svg-icons/issues"
   },
-  "homepage": "https://juny.blog/blog/docs/react-svg-icons.md",
+  "homepage": "https://www.juny.blog/markdown-viewer/blog/docs/react-svg-icons.md",
   "files": [
     "dist"
   ]
