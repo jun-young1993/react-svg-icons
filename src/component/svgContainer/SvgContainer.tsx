@@ -24,7 +24,7 @@ export interface SvgType extends SVGProps<SVGSVGElement>{
 	className3?: string;
 	className4?: string;
 	className5?: string;
-	children?: ReactNode
+	children?: ReactNode | string
 }
 
 const SvgContainer = ({
